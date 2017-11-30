@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(123, 130, 138);
+    background-size: 100%;
+    background-repeat: repeat;
+    background-color: #9eafc4;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin: 2em 2em 2em 2em;
+    text-shadow: 5px 5px 3px rgb(36, 36, 36); 
+}
+
+h4 {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px 10px 10px 10px;
+}
+
+h3 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#icon {
+    margin: 0px 20px 0px 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    min-height: 100px;
+    padding: 15px 15px 15px 15px;
+    box-shadow: 5px 5px 3px rgb(36, 36, 36); 
+    background: rgba(244, 244, 244, 0.8);
+}
+
+.btn{
+    font-size: 14px;
+}
