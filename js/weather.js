@@ -13,6 +13,7 @@ const updateWeather = function(){
         var wind = data.wind;
         var station = data.base;
         var icon = data.weather[0].icon;
+        var windDeg = parseInt(wind["deg"]);
 
         $("#temp").html("<strong>"+Math.round(temp)+ "°C"+"</strong>");
         $("#sky").html(weather["main"]);
@@ -36,6 +37,10 @@ const updateWeather = function(){
        if(weather["main"].toLowerCase() == "rain"){
         $("body").css("background-image",'url("images/freddie-marriage-199100.jpg")');
        }
+
+       $("#arrow").css("transform","rotate("+(windDeg+90)+"deg)");
+       $("#arrow").css("-webkit-transform","rotate("+(windDeg+90)+"deg)");
+       $("#arrow").css("-ms-transform","rotate("+(windDeg+90)+"deg)");
 
     }).fail(function() {
         alert( "Error fetching weather station data!");
