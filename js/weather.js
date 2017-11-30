@@ -46,7 +46,7 @@ const updateWeather = function(){
 const showCity = function(lat,lon){
 
 
-   var httpPos = "https://maps.googleapis.com/maps/api/geocode/json?latlng="+lat+","+lon+"&result_type=locality&key=AIzaSyBpkAxsvf9iLqXlf5jshxbjoRbe_1jcNZQ";
+   var httpPos = "https://maps.googleapis.com/maps/api/geocode/json?latlng="+lat+","+lon+"&result_type=locality&key=AIzaSyAr_c-SICjrMA9eJmsWW4-S3G29FqS7Z7g";
 
    $.getJSON(httpPos, function( data ){
 
