@@ -13,7 +13,7 @@
     </head>
     <body>
         <header>
-            <h1>Local Weather App</h1>
+            <h1 id="title">Local Weather App</h1>
         </header>
         
         <main>
@@ -25,24 +25,21 @@
                 </div>
 
                 <div class="row align-items-center justify-content-center">
-                    <div class="col-12 col-md-4">
-                        <div class="jumbotron">
-                            <h4 id="station">City, State</h4>
-                        </div>
+                    <div class="col-12 col-md-2">
                     </div>
-                    <div class="col-12 col-md-4">
+                    <div class="col-12 col-md-8">
                          <div class="jumbotron">
-                            <h3 id="temp">temp</h3>
+                            <h3 id="station">City, State</h3>
+                            <h1 id="temp">temp</h1>
+                            <button class="btn btn-secondary">Switch to °F</button><br>
+                            <hr>
                             <img id="icon" src="" alt="weather icon">
-                            <h4 id="sky">Clear</h4><br>
-                            <button class="btn btn-secondary">Switch to °F</button>
+                            <h2 id="sky">Clear</h2><br>
+                            <h3 id="wind" class="align-middle">SW 100</h3>
+                            <img id="arrow" src="images/canva-arrow-MAB0hy3YH9s.webp" alt="arrow">
                         </div>
                     </div>
-                    <div class="col-12 col-md-4">
-                         <div class="jumbotron">
-                            <h4 id="wind" class="align-middle">SW 100</h4>
-                            <img id="arrow" src="images/canva-arrow-MAB0hy3YH9s.webp" alt="arrow">
-                        </div> 
+                    <div class="col-12 col-md-2">
                     </div>                                                
                 </div>
             </div>
